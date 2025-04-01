@@ -3,25 +3,28 @@
     <menu-superior/>
 
     <v-main>
-      <HelloWorld/>
+      <index-pagina/>
     </v-main>
-    
+    <redirecionar-whatsapp/>
+       
     <rodape-cardapio/>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-import MenuSuperior from '@/components/menus/menuSuperior.vue';
+import indexPagina from '@/views/indexPagina.vue';
+import menuSuperior from '@/components/menus/menuSuperior.vue';
 import rodapeCardapio from '@/components/menus/rodapeCardapio.vue';
+import redirecionarWhatsapp from '@/components/menus/redirecionarWhatsapp.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-    MenuSuperior,
-    rodapeCardapio
+    indexPagina,
+    menuSuperior,
+    rodapeCardapio,
+    redirecionarWhatsapp
   },
 
   data: () => ({

@@ -2,7 +2,7 @@
   <v-app-bar
     app
     dark
-    color="black"
+    color="#313338"
   >
     <div class="d-flex align-center">
       <v-img
