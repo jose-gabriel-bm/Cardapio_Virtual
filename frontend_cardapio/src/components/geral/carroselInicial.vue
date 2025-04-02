@@ -3,6 +3,7 @@
     cycle
     hide-delimiter-background
     :show-arrows="false"
+    touchless
   >
     <v-carousel-item
       v-for="(item,i) in items"
@@ -28,11 +29,15 @@
           {
             src: require('@/assets/carrosel-03.png'),
           },
-          {
-            src: require('@/assets/carrosel-04.png'),
-          },
         ],
       }
     },
   }
 </script>
+
+<style>
+  .v-carousel {
+    scroll-behavior: auto !important;
+    overflow: hidden !important;
+  }
+</style>
