@@ -4,7 +4,8 @@
     <sobre-empresa/>
     <receitas-favoritas/>
     <todas-porcoes/>
-    <geral-sobremesa/>
+    <geral-bebidas/>
+    <!-- <geral-sobremesa/> -->
   </v-div>
 </template>
   
@@ -13,7 +14,8 @@
   import sobreEmpresa from '@/components/geral/sobreEmpresa.vue';
   import receitasFavoritas from '@/components/geral/receitasFavoritas.vue';
   import todasPorcoes from '@/components/geral/todasPorcoes.vue';
-  import geralSobremesa from '@/components/geral/geralSobremesa.vue';
+  import geralBebidas from '@/components/geral/geralBebidas.vue';
+  // import geralSobremesa from '@/components/geral/geralSobremesa.vue';
 
   export default {
     name: 'IndexPagina',
@@ -23,7 +25,8 @@
       sobreEmpresa,
       receitasFavoritas,
       todasPorcoes,
-      geralSobremesa
+      // geralSobremesa,
+      geralBebidas
     },
   
     data: () => ({

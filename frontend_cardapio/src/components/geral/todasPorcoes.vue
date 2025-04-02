@@ -1,11 +1,14 @@
 <template>
-  <v-card color="#ffb301">
+  <v-card>
+    <v-img
+      :src="require(`@/assets/backgroudporcoes.png`)"
+      height="450"
+      width="100%"
+    >
     <v-row class="pa-10 pt-4 pb-0" justify="center">
-      <v-card elevation="0" color="#ffb301">
         <v-card-title class="text-h4 mb-8 text-center w-100">
           <strong>🍟 Porções de Respeito</strong> 
         </v-card-title>
-      </v-card>
     </v-row>
     <v-row class="pa-8 pt-0">
       <v-col v-for="(item, index) in items" :key="index" cols="3" class="pt-0 pb-0">
@@ -20,7 +23,7 @@
         </v-card-title>
       </v-col>
     </v-row>
-
+  </v-img>
   </v-card>
 </template>
 
