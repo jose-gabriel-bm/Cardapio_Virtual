@@ -14,6 +14,10 @@ Um cardápio digital responsivo feito com Vue.js + Vuetify, ideal para restauran
 
 ### 🚀 Demonstração
 
+![Descrição da Imagem](./video.gif)
+
+
+
 ### 📜 Recursos
 ✅ Exibição de produtos organizados por categoria<br/>
 ✅ Busca e filtros dinâmicos<br/>
