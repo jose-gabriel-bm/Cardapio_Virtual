@@ -14,8 +14,8 @@ Um cardápio digital responsivo feito com Vue.js + Vuetify, ideal para restauran
 
 ### 🚀 Demonstração
 
-![Descrição da Imagem](./video.gif)
 
+https://cardapio-virtual-nu.vercel.app/
 
 
 ### 📜 Recursos
